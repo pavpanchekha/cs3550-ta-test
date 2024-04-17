@@ -19,7 +19,7 @@ help on Discord or sign up for an office hours slot.
 Phase 1: Starting the web server
 --------------------------------
 
-First, [install all of the required software](install.md) and make
+First, install all of the required software and make
 sure all the indicated commands work.
 
 Second, check out your Github repository and rename the folder to
@@ -110,7 +110,7 @@ browser. Your task is add HTML code to this file to make an
 "assignment" page for the grading application, which is intended to
 look like so:
 
-![A screenshot of an "assignment" page](screenshots/assignment.png)
+![A screenshot of an "assignment" page](assignment.png)
 
 As you can see, there is a navigation bar, a header, basic data about
 the assignment, an "action block" with details about grading, and a
@@ -127,13 +127,13 @@ Additionally, keep in mind that the page:
 - Must be valid HTML5
 - Must contain the `<meta charset="utf-8">` tag.
 - Must set the tab name to "Assignment 1 (HTML) - CS 3550" and set the
-  tab icon to the [application icon](resources/favicon.ico).
+  tab icon to the [application icon](favicon.ico).
 - Must contain exactly the same text and images
   
-You can find a copy of the [favicon file](resources/favicon.ico) in
+You can find a copy of the [favicon file](favicon.ico) in
 the `resources` directory of this repository. It looks terrible but
 that isn't the point. You can find a copy of the
-[image](screenshots/assignments.png) in the `screenshots` directory of
+[image](static/assignments.png) in the `static` directory of
 this repository.
 
 Use appropriate structural elements, including `<header>`, `<nav>`,
